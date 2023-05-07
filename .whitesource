@@ -1,8 +1,14 @@
 {
+  "settingsInheritedFrom": "Dima2021/whitesource-config@master",
   "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure"
+    "vulnerableCheckRunConclusionLevel": "none"
   },
-  "issueSettings": {
-    "minSeverityLevel": "LOW"
+  "scanSettingsSAST": {
+    "enableScan": true
+  },
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": false
+    }
   }
 }
